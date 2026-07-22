@@ -1,18 +1,18 @@
 {
     "name": {
-        "ar": "الإبداع والتميز البصري",
-        "en": "Creative & Visual Excellence"
+        "ar": "tw-test-bundle-release-1",
+        "en": "tw-test-bundle-release-1"
     },
     "description": {
-        "ar": "حزمة عناصر قابلة لإعادة الاستخدام لبناء تجربة تسوق مميزة",
-        "en": "A bundle of reusable components for building exceptional shopping experiences"
+        "ar": null,
+        "en": null
     },
     "author": {
         "name": "Salla",
         "email": "support@salla.sa",
         "url": "https://salla.dev"
     },
-    "repository": "https://github.com/SallaApp/tw-creativity-bundle",
+    "repository": "https://github.com/sallathemes/tw-test-bundle-release-1",
     "components": [
         {
             "title": "مقاييس الأداء",
@@ -888,8 +888,8 @@
             ]
         }
     ],
-    "author_email": "salah@salla.sa",
-    "support_url": "https://portal.salla.partners/",
+    "author_email": "sallathemes@gmail.com",
+    "support_url": null,
     "templates": [
         {
             "id": "75d0f36d-0a17-48bc-8663-c8e40b44532a",
