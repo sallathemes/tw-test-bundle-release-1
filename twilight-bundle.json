@@ -916,5 +916,8 @@
             "thumbnail": "templates-thumbs/default.png",
             "is_default": false
         }
+    ],
+    "features": [
+        "landing-page-templates"
     ]
 }
