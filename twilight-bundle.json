@@ -1,0 +1,14 @@
+{
+    "name": {
+        "ar": "tw-test-bundle-release-1",
+        "en": "tw-test-bundle-release-1"
+    },
+    "description": {
+        "ar": "",
+        "en": ""
+    },
+    "author_email": "sallathemes@gmail.com",
+    "support_url": "",
+    "repository": "https://github.com/sallathemes/tw-test-bundle-release-1",
+    "components": []
+}
