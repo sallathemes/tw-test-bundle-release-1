@@ -917,7 +917,5 @@
             "is_default": false
         }
     ],
-    "features": [
-        "landing-page-templates"
-    ]
+    "features": []
 }
