@@ -906,7 +906,8 @@
             "category_id": "665151403",
             "primary_color": "",
             "thumbnail": "templates-thumbs/temp-1.png",
-            "is_default": false
+            "is_default": false,
+            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/temp-1"
         },
         {
             "id": "a7a26068-2fac-448d-b76d-6927b4e42158",
@@ -914,7 +915,8 @@
             "category_id": "1440241834",
             "primary_color": "",
             "thumbnail": "templates-thumbs/default.png",
-            "is_default": false
+            "is_default": false,
+            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/default"
         }
     ],
     "features": [
