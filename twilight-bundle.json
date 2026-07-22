@@ -919,5 +919,7 @@
             "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/default"
         }
     ],
-    "features": []
+    "features": [
+        "landing-page-templates"
+    ]
 }
