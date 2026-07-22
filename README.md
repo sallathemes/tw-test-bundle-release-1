@@ -1,19 +1,15 @@
-# tw-test-bundle-release-1
-
-
+# Salla Twilight Bundles Starter Kit
 
 This starter kit provides a foundation for building custom Twilight components for Salla's e-commerce platform. It includes a pre-configured build setup and development environment to help you get started quickly.
+
 
 ## Getting Started
 
 1. Clone this repository
-2. Remove the example components in `src/components/` using:
-   ```
-   tw-delete-component
-   ```
+2. Remove the example components in `src/components/`
 3. Create your own components using the component generator:
    ```
-   tw-create-component <component-name>
+   pnpm tw-create-component
    ```
 4. Run `pnpm install` to install dependencies
 5. Run `pnpm run dev` to start the development server
@@ -134,17 +130,9 @@ export default defineConfig({
 });
 ```
 
-## Component Management
-
-### Creating New Components
+## Creating New Components
 
 This starter kit includes a component generator to help you create new components quickly. To use it, run:
-
-```bash
-pnpm tw-create-component <component-name>
-```
-
-Or run without arguments for interactive mode:
 
 ```bash
 pnpm tw-create-component
@@ -155,26 +143,6 @@ The generator will:
 2. Validate that the name is in kebab-case and doesn't already exist
 3. Create a new component folder with an `index.ts` file
 4. Add the component definition to `twilight-bundle.json`
-
-### Deleting Components
-
-To remove a component, use:
-
-```bash
-pnpm tw-delete-component <component-name>
-```
-
-Or run without arguments to see a list of available components:
-
-```bash
-pnpm tw-delete-component
-```
-
-This will:
-1. Show a list of available components to select from
-2. Ask for confirmation before deletion
-3. Remove the component folder from `src/components/`
-4. Remove the component definition from `twilight-bundle.json`
 
 ## Component Requirements
 
@@ -190,16 +158,13 @@ import { css, html, LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 
 export default class MyComponent extends LitElement {
-  @property({ type: Object })
-  config?: {
-    name: string;
-    //... other properties
-  };
+  @property({ type: String })
+  name = 'World';
 
   static styles = css`/* your styles */`;
 
   render() {
-    return html`<div>Hello ${this.config?.name || 'World'}!</div>`;
+    return html`<div>Hello ${this.name}!</div>`;
   }
 }
 ```
@@ -214,6 +179,33 @@ Run `pnpm run dev` to start the development server. This will:
 1. Create a demo page with all your components
 2. Enable hot module reloading
 3. Provide a development environment for testing
+
+### Point it at a local form-builder-mock
+
+By default (no env var set), the demo's settings drawer talks to the **deployed, production**
+form-builder mock at `https://salla.design/api/v1/form-builder-mock` — not a local instance.
+This isn't just for iterating on mock data: that deployed instance has been observed silently
+corrupting saved `collection`-type field data (e.g. repeater fields with images or multiple
+sub-fields lose their values on save, and the demo reports "had corrupted saved data — restored
+its default" even though you filled everything in correctly).
+
+Run against a local mock instead:
+
+1. In the `twilight-bundles` monorepo, start the mock:
+   ```bash
+   cd packages/form-builder-mock
+   pnpm dev
+   ```
+   Note the port it prints (e.g. `http://localhost:8787`).
+
+2. In this repo, point `pnpm dev` at it:
+   ```bash
+   TWILIGHT_FORM_BUILDER_MOCK_BASE_URL=http://localhost:8787 pnpm dev
+   ```
+
+If you're also iterating on local `twilight-bundles` core changes, add `TWILIGHT_BUNDLES_URL`
+the same way (see the main monorepo's README, "Previewing Local twilight-bundles Changes While
+Running `pnpm dev` Inside a Package").
 
 ## License
 
