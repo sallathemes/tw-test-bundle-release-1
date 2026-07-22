@@ -11,5 +11,7 @@
     "support_url": "",
     "repository": "https://github.com/sallathemes/tw-test-bundle-release-1",
     "components": [],
-    "features": []
+    "features": [
+        "landing-page-templates"
+    ]
 }
