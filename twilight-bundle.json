@@ -898,7 +898,7 @@
             "primary_color": "#B4643C",
             "thumbnail": "https://cdn.assets.salla.network/previews/ffxdpdmgvwwq/assets/1465417b354fb16127ec9b58e86cb9dc0e004b4a760b7fa86381923da3887257/templates-thumbs/clothes.jpg",
             "is_default": true,
-            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/clothes"
+            "preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/clothes"
         },
         {
             "id": "ca8c716d-4769-48c9-ab46-1789b804adec",
@@ -907,7 +907,7 @@
             "primary_color": "#2563EB",
             "thumbnail": "https://cdn.assets.salla.network/previews/ffxdpdmgvwwq/assets/b0dfc1a6022ad2adb1b6535a744b093c297e611ef2935838a9697143c44a9a7c/templates-thumbs/electronics.png",
             "is_default": false,
-            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/electronics"
+            "preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/electronics"
         },
         {
             "id": "3eb79fa0-835b-458b-8a4e-6de368d3477f",
@@ -916,7 +916,7 @@
             "primary_color": "#0F9C8E",
             "thumbnail": "https://cdn.assets.salla.network/previews/ffxdpdmgvwwq/assets/1b2f577cc3570ffa1b518942e7e9d89f1a9a5a900dd4f04bd5c5c6217024d7d0/templates-thumbs/medical.png",
             "is_default": false,
-            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/medical"
+            "preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/medical"
         },
         {
             "id": "dda69da0-7552-4109-b1ac-42d11b83f2a9",
@@ -925,7 +925,7 @@
             "primary_color": "#8B5E3C",
             "thumbnail": "https://cdn.assets.salla.network/previews/ffxdpdmgvwwq/assets/ca853610d744183c0d988195fb5d9097089a474bd26336a4db5685527f8a9b5a/templates-thumbs/home.png",
             "is_default": false,
-            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/home"
+            "preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/home"
         }
     ],
     "features": [
