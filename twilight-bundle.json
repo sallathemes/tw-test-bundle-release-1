@@ -908,6 +908,24 @@
             "thumbnail": "templates-thumbs/electronics.jpg",
             "is_default": false,
             "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/electronics"
+        },
+        {
+            "id": "3eb79fa0-835b-458b-8a4e-6de368d3477f",
+            "path": "templates.medical",
+            "category_id": "1209997307",
+            "primary_color": "#0F9C8E",
+            "thumbnail": "templates-thumbs/medical.jpg",
+            "is_default": false,
+            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/medical"
+        },
+        {
+            "id": "dda69da0-7552-4109-b1ac-42d11b83f2a9",
+            "path": "templates.home",
+            "category_id": "989286562",
+            "primary_color": "#8B5E3C",
+            "thumbnail": "templates-thumbs/home.jpg",
+            "is_default": false,
+            "public_preview_url": "https://salla.design/preview/s/ffxdpdmgvwwq/home"
         }
     ],
     "features": [
