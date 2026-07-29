@@ -33,7 +33,7 @@
     "vitest": "^3.2.4"
   },
   "dependencies": {
-    "@salla.sa/twilight-bundles": "^0.1.53",
+    "@salla.sa/twilight-bundles": "^0.1.57",
     "lit": "^3.3.1"
   },
   "engines": {
